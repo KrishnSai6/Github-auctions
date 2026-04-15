@@ -1,6 +1,7 @@
 name: this is test yaml
 
-on: workflow_dispatch
+on: 
+    workflow_dispatch
 
 jobs:
   test-yaml:
