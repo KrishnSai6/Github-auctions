@@ -8,4 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: this is test yaml
-          run: echo "testing github auctions yaml"
+          run: echo "testing github auctions yaml" > test.txt
+
+        - name: show the file test
+          run: cat test.txt
