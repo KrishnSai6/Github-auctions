@@ -1,1 +1,10 @@
+name: this is test yaml
 
+on: workflow_dispatch
+
+jobs:
+  test-yaml:
+    runs-on: ubuntu-latest
+    steps:
+        - name: this is test yaml
+          run: echo "testing github auctions yaml"
