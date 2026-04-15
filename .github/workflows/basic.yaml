@@ -1,0 +1,11 @@
+name: This is basic workflow
+
+on: push
+
+jobs:
+    test-job:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: this is Hello world
+              run: echo "hello world" 
